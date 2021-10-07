@@ -10,6 +10,7 @@ namespace ConsoleApp1
             //Creating Hashtable collection with default constructor
             Hashtable ht = new Hashtable();
             //Adding elements to the Hash table using key value pair
+            ht.Add("EId", 1004);
             ht.Add("EId", 1001); //Here key is Eid and value is 1001
             ht.Add("Name", "James"); //Here key is Name and value is James
             ht.Add("Job", "Developer");
